@@ -13,7 +13,7 @@ namespace GitFlowMaster
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run(); //basic change  
+            CreateHostBuilder(args).Build().Run(); //basic change
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
